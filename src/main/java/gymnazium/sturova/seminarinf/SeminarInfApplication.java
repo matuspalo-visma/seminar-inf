@@ -9,6 +9,7 @@ public class SeminarInfApplication {
     public static void main(String[] args) {
         SpringApplication.run(SeminarInfApplication.class, args);
         System.out.println("Application started successfully.");
+        System.out.println("test merging");
     }
 
 }
