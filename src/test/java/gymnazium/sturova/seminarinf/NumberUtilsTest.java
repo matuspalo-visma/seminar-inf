@@ -45,7 +45,7 @@ class NumberUtilsTest {
 
     @Test
     void countDigits_minInteger_returnsCorrectCount() {
-        assertEquals(10, numberUtils.countDigits(Integer.MIN_VALUE + 1));
+        assertEquals(10, numberUtils.countDigits(Integer.MIN_VALUE));
     }
 
     // Tests for countDivisors method
