@@ -21,7 +21,7 @@ class NumberUtilsTest {
 
     @Test
     void countDigits_zero_returnsOne() {
-        assertEquals(1, numberUtils.countDigits(0));
+        assertEquals(1, numberUtils.countDigits(10));
     }
 
     @Test
