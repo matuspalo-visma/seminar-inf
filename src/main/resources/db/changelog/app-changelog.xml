@@ -6,6 +6,7 @@
                             http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-latest.xsd">
 
     <include file="/db/changelog/scripts/20260218_230524_MP-3.sql"/>
+    <include file="/db/changelog/scripts/MP-4.sql"/>
 
 </databaseChangeLog>
 
